@@ -22,6 +22,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MatInputModule } from '@angular/material/input';
     HomeComponent,
     ProductCrudComponent,
     RedDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
