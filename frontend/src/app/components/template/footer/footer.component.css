@@ -5,7 +5,12 @@
   justify-content: flex-end;
 }
 
-.footer > span {
+.footer a > span {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #fff;
 }
